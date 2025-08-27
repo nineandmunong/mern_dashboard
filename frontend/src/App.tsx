@@ -177,7 +177,7 @@ function App() {
                     list: "/properties",
                     create: "/properties/create",
                     show: "/properties/show/:id",
-                    // edit: "/blog-posts/edit/:id",
+                    edit: "/blog-posts/edit/:id",
                   },
                   {
                     name: "Agents",
@@ -248,6 +248,7 @@ function App() {
                       <Route index element={<AllProperties />} />
                       <Route path="create" element={<CreateProperties />} />
                       <Route path="show/:id" element={<PropertiesDetail />} />
+                      <Route path="edit/:id" element={<CreateProperties />} />
                     </Route>
                     <Route path="/agents">
                       <Route index element={<Agents />} />
