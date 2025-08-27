@@ -43,7 +43,7 @@
   "scripts": {
     "dev": "refine dev",
     "build": "tsc && refine build",
-    "start": "refine start",
+    "start": "nodemon index.js",
     "refine": "refine"
   },
   "browserslist": {
