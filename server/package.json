@@ -4,7 +4,7 @@
   "main": "index.js",
  "scripts": {
   "dev": "refine dev",
-  "start": "node dist/index.js",
+  "start": "node index.js",
   "refine": "refine",
   "build": "tsc"
 }
