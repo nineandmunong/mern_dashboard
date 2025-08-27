@@ -42,7 +42,6 @@
   },
   "scripts": {
     "dev": "refine dev",
-    "build": "tsc && refine build",
     "start": "nodemon index.js",
     "refine": "refine"
   },
